@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    height: 80vh;
+    width: 80vh;
+    margin-bottom: 0.75%;
+    border: 1px solid black;
+
+}
+
+.controls {
+    display: flex;
+    width: 50%;
+    justify-content: space-around;
+}
+
+button {
+    padding: 2% 5%;
+}
+
+.grid {
+    height: 6.25%;
+    width: 6.25%;
+}
+
+.grid-border {
+    border: 1px solid rgb(0, 0, 0);
+}
+
+.grid-clear {
+    background-color: rgb(255, 255, 255);
+}
